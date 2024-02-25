@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "216393085687",
+    "firebase_url": "https://travelapp-a0414-default-rtdb.firebaseio.com",
+    "project_id": "travelapp-a0414",
+    "storage_bucket": "travelapp-a0414.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216393085687:android:6a2ab5bef45c7d7c4a99f2",
+        "android_client_info": {
+          "package_name": "com.example.travel_nepal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQp3ajoGTdIya_3Nt7CtAphUQBGroXc98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
