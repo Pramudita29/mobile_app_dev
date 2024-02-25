@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<TourCategoryModel> categories = [
     TourCategoryModel(category: "Experience Culture", imageUrl: "https://3.bp.blogspot.com/-LxMkkClEIi0/WaLkWfnuFjI/AAAAAAAADeY/DEUhrqcvB4w_qKh8LZlXmlwM1X2Mexs0ACLcBGAs/s1600/Swayambhunath%2BStupa%2B%2528Monkey%2BTemple%2529%2Bin%2BKathmandu%2BNepal.jpg"),
     TourCategoryModel(category: "Experience Nature", imageUrl: "https://www.andbeyond.com/wp-content/uploads/sites/5/nepal-village.jpg"),
-    TourCategoryModel(category: "Experience Trail", imageUrl: "https://th.bing.com/th/id/R.8241e53266074f267be4b79b557a2189?rik=83v4qhUeCnKkxA&pid=ImgRaw&r=0"),
+    TourCategoryModel(category: "Experience Trails", imageUrl: "https://th.bing.com/th/id/R.8241e53266074f267be4b79b557a2189?rik=83v4qhUeCnKkxA&pid=ImgRaw&r=0"),
     TourCategoryModel(category: "Experience Adrenaline", imageUrl: "https://th.bing.com/th/id/R.a300f9391ee8b8651abdacd7713352ad?rik=YJmQsl82%2bKznuA&pid=ImgRaw&r=0"),
   ];
 
@@ -38,10 +38,6 @@ class _HomeScreenState extends State<HomeScreen> {
         iconTheme: IconThemeData(color: Colors.black),
         elevation: 0,
         actions: [
-          IconButton(
-            icon: Icon(Icons.search, color: Colors.black),
-            onPressed: () {},
-          ),
         ],
       ),
       body: SingleChildScrollView(
