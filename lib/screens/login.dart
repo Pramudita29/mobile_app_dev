@@ -37,6 +37,7 @@ class _LoginScreenState extends State<LoginScreen> {
           email: _email.trim(),
           password: _password,
         );
+        _navigateTo(HomeScreen());
 
         // Optionally check Firestore for additional user details
         // For example, checking if a user is an admin stored in Firestore
